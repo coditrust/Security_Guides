@@ -1,146 +1,146 @@
-N°;Recommandation;Détails;Page
-R1;Privilégier l’authentification multifacteur;"Il est recommandé de privilégier l’utilisation d’une authentification multifacteur,
-c’est-à-dire une authentification mettant en oeuvre plusieurs facteurs d’authentification
-appartenant à une catégorie de facteur différente parmi les facteurs de connaissance,
-de possession et inhérent.";14
-R2;Privilégier l’utilisation de moyens d’authentification forts;"Il est recommandé de privilégier l’utilisation de moyens d’authentification forts reposant
-sur des mécanismes cryptographiques conformes au RGS et à ses annexes
+NÂ°;Recommandation;DÃ©tails;Page
+R1;PrivilÃ©gier l'authentification multifacteur;"Il est recommandÃ© de privilÃ©gier l'utilisation d'une authentification multifacteur,
+c'est-Ã -dire une authentification mettant en oeuvre plusieurs facteurs d'authentification
+appartenant Ã  une catÃ©gorie de facteur diffÃ©rente parmi les facteurs de connaissance,
+de possession et inhÃ©rent.";14
+R2;PrivilÃ©gier l'utilisation de moyens d'authentification forts;"Il est recommandÃ© de privilÃ©gier l'utilisation de moyens d'authentification forts reposant
+sur des mÃ©canismes cryptographiques conformes au RGS et Ã  ses annexes
 B1 [13], B2 [12] et B3 [11].";16
-R3;Conduire une analyse de risque;"Il est recommandé de mener une analyse de risque pour déterminer les moyens d’authentification
-à mettre en oeuvre en fonction du besoin de sécurité.";18
-R4;Créer les facteurs d’authentification dans un environnement maîtrisé;"Il est recommandé de créer les facteurs d’authentification dans un environnement
-maîtrisé par l’entité chargée de sa création. Les méthodes d’enregistrement et de remise
-du facteur d’authentification doivent être cohérentes avec le niveau de sécurité
-attendue de l’authentification.";19
-R5;Générer les éléments aléatoires avec un générateur de nombres aléatoires robuste;"Il est recommandé de générer les éléments aléatoires nécessaires à l’authentification
-(comme des clés cryptographiques par exemple) au moyen d’un générateur de
-nombres aléatoires robuste conforme à l’annexe B1 du RGS [13].";20
-R6;Remettre les facteurs d’authentification au travers de canaux sécurisés;"Dans le cas où le facteur d’authentification est remis à l’utilisateur (cas d’une carte
-à puce par exemple), il est recommandé de privilégier la remise en main propre car
-elle rend possible la vérification d’identité présentant le meilleur niveau d’assurance.
-Dans le cas d’une remise à distance, il est recommandé que les canaux et moyens de
-transmission utilisés pour délivrer le facteur d’authentification soient protégés en intégrité,
-authenticité et confidentialité.
-La vérification de l’identité à distance est également possible et est réglementée par
-le référentiel d’exigences applicables aux prestataires de vérification d’identité à distance
+R3;Conduire une analyse de risque;"Il est recommandÃ© de mener une analyse de risque pour dÃ©terminer les moyens d'authentification
+Ã  mettre en oeuvre en fonction du besoin de sÃ©curitÃ©.";18
+R4;CrÃ©er les facteurs d'authentification dans un environnement maÃ®trisÃ©;"Il est recommandÃ© de crÃ©er les facteurs d'authentification dans un environnement
+maÃ®trisÃ© par l'entitÃ© chargÃ©e de sa crÃ©ation. Les mÃ©thodes d'enregistrement et de remise
+du facteur d'authentification doivent Ãªtre cohÃ©rentes avec le niveau de sÃ©curitÃ©
+attendue de l'authentification.";19
+R5;GÃ©nÃ©rer les Ã©lÃ©ments alÃ©atoires avec un gÃ©nÃ©rateur de nombres alÃ©atoires robuste;"Il est recommandÃ© de gÃ©nÃ©rer les Ã©lÃ©ments alÃ©atoires nÃ©cessaires Ã  l'authentification
+(comme des clÃ©s cryptographiques par exemple) au moyen d'un gÃ©nÃ©rateur de
+nombres alÃ©atoires robuste conforme Ã  l'annexe B1 du RGS [13].";20
+R6;Remettre les facteurs d'authentification au travers de canaux sÃ©curisÃ©s;"Dans le cas oÃ¹ le facteur d'authentification est remis Ã  l'utilisateur (cas d'une carte
+Ã  puce par exemple), il est recommandÃ© de privilÃ©gier la remise en main propre car
+elle rend possible la vÃ©rification d'identitÃ© prÃ©sentant le meilleur niveau d'assurance.
+Dans le cas d'une remise Ã  distance, il est recommandÃ© que les canaux et moyens de
+transmission utilisÃ©s pour dÃ©livrer le facteur d'authentification soient protÃ©gÃ©s en intÃ©gritÃ©,
+authenticitÃ© et confidentialitÃ©.
+La vÃ©rification de l'identitÃ© Ã  distance est Ã©galement possible et est rÃ©glementÃ©e par
+le rÃ©fÃ©rentiel d'exigences applicables aux prestataires de vÃ©rification d'identitÃ© Ã  distance
 (PVID) [2].";20
-R7;Mettre en place un processus de renouvellement des facteurs d’authentification;"Il est recommandé de mettre en place un processus de renouvellement des facteurs
-d’authentification.";20
-R8;Ne pas utiliser le SMS comme moyen de réception d’un facteur d’authentification;"Il est recommandé de ne pas utiliser le SMS comme moyen de réception d’un facteur
-d’authentification.";21
-R9;Conserver les historiques d’utilisation des facteurs d’authentification;"Il est recommandé de conserver les historiques des évènements liés à la vie des facteurs
-d’authentification afin de faciliter la détection de comportements anormaux
-qui présagerait d’une compromission d’un facteur d’authentification. Parmi ces évènements,
-on peut citer : la date de création, les tentatives d’authentification (réussies ou échouées), les demandes de renouvellement, la date de révocation, etc. Il est recommandé
-de suivre le guide de recommandations de sécurité pour la mise en oeuvre
-d’un système de journalisation [6] appliqué au contexte de l’authentification.";22
-R10;Limiter dans le temps le nombre de tentatives d’authentification;"Il est recommandé de mettre en oeuvre un mécanisme limitant le nombre de tentatives
-d’authentification sur une période de temps donnée, afin de réduire les probabilités
-d’authentifications frauduleuses par force brute.";22
-R11;Réaliser l’authentification au travers d’un canal sécurisé;"Il est recommandé de réaliser l’authentification au travers d’un canal sécurisé
-(comme un flux encapsulé par les protocoles TLS ou IPsec) permettant de garantir
-des propriétés de confidentialité, d’intégrité et d’authenticité.";22
-R12;Limiter la durée de validité d’une session authentifiée;"Il est recommandé qu’une session authentifiée ait une durée maximale de validité.
+R7;Mettre en place un processus de renouvellement des facteurs d'authentification;"Il est recommandÃ© de mettre en place un processus de renouvellement des facteurs
+d'authentification.";20
+R8;Ne pas utiliser le SMS comme moyen de rÃ©ception d'un facteur d'authentification;"Il est recommandÃ© de ne pas utiliser le SMS comme moyen de rÃ©ception d'un facteur
+d'authentification.";21
+R9;Conserver les historiques d'utilisation des facteurs d'authentification;"Il est recommandÃ© de conserver les historiques des Ã©vÃ¨nements liÃ©s Ã  la vie des facteurs
+d'authentification afin de faciliter la dÃ©tection de comportements anormaux
+qui prÃ©sagerait d'une compromission d'un facteur d'authentification. Parmi ces Ã©vÃ¨nements,
+on peut citer : la date de crÃ©ation, les tentatives d'authentification (rÃ©ussies ou Ã©chouÃ©es), les demandes de renouvellement, la date de rÃ©vocation, etc. Il est recommandÃ©
+de suivre le guide de recommandations de sÃ©curitÃ© pour la mise en oeuvre
+d'un systÃ¨me de journalisation [6] appliquÃ© au contexte de l'authentification.";22
+R10;Limiter dans le temps le nombre de tentatives d'authentification;"Il est recommandÃ© de mettre en oeuvre un mÃ©canisme limitant le nombre de tentatives
+d'authentification sur une pÃ©riode de temps donnÃ©e, afin de rÃ©duire les probabilitÃ©s
+d'authentifications frauduleuses par force brute.";22
+R11;RÃ©aliser l'authentification au travers d'un canal sÃ©curisÃ©;"Il est recommandÃ© de rÃ©aliser l'authentification au travers d'un canal sÃ©curisÃ©
+(comme un flux encapsulÃ© par les protocoles TLS ou IPsec) permettant de garantir
+des propriÃ©tÃ©s de confidentialitÃ©, d'intÃ©gritÃ© et d'authenticitÃ©.";22
+R12;Limiter la durÃ©e de validitÃ© d'une session authentifiÃ©e;"Il est recommandÃ© qu'une session authentifiÃ©e ait une durÃ©e maximale de validitÃ©.
 Les secrets temporaires de sessions (comme des cookies par exemple) doivent avoir
-une durée de vie limitée. Il est ainsi recommandé de forcer la ré-authentification des
-utilisateurs après une période adaptée au cas d’usage.";23
-R13;Protéger les données d’authentification stockées par le vérifieur;"Lorsque des données d’authentification doivent être conservées par le vérifieur, il est
-recommandé d’assurer la protection en confidentialité et en intégrité de ces informations.
-Il est également recommandé de protéger les accès à ces données sensibles.";23
-R14;Ne pas donner d’information sur l’échec de l’authentification;"Il est recommandé que l’échec d’une authentification multifacteur ne donne pas d’information
-sur le facteur ayant conduit à l’échec de l’authentification.";23
-R15;Définir un délai d’expiration des facteurs d’authentification;"Il est recommandé de mettre en place un délai d’expiration des facteurs d’authentification,
-permettant de limiter une éventuelle période d’utilisation frauduleuse.";24
-R16;Définir une politique d’utilisation des facteurs d’authentification;"Il est recommandé d’établir une politique définissant les conditions d’utilisation du
-ou des facteurs d’authentification mis en place. Il peut par exemple s’agir de définir
-les conditions d’utilisation d’un facteur d’authentification de possession, de définir
-les procédures qu’un utilisateur doit suivre dans les cas de perte ou de compromission
-de son facteur d’authentification.";24
-R17;Sensibiliser les utilisateurs à la sécurité de l’authentification;"Il est recommandé de mettre en place des campagnes de sensibilisation des utilisateurs
-aux risques liés à l’authentification (par exemple des campagnes de sensibilisation
-au hameçonnage). Les utilisateurs doivent être également informés des différentes
-conditions d’utilisation des facteurs d’authentification mis à leur disposition.";24
-R18;Mettre en place un processus de révocation des facteurs d’authentification;"Il est recommandé de mettre en place un processus dédié permettant de révoquer
-des facteurs d’authentification et de diffuser l’information de révocation.";24
-R19;Définir des délais adaptés de prise en compte des révocations;"Les délais pour la prise en compte et l’application de la révocation doivent faire partie
-de l’analyse de risque et doivent être adaptés aux menaces pesant sur le système
-d’information.";25
-R20;Mettre en place une politique de sécurité des mots de passe;"Il est recommandé de mettre en place une politique de sécurité des mots passe adaptée
-au contexte et aux objectifs de sécurité du système d’information.";27
-R21;Imposer une longueur minimale pour les mots de passe;"Il est recommandé de définir une longueur minimale pour les mots de passe lors de
-leur création en fonction du niveau de sécurité visé par le système d’information.";28
-R22;Ne pas imposer de longueur maximale pour les mots de passe;"Selon les systèmes, il est recommandé de ne pas fixer de limite à la longueur maximale
-d’un mot de passe afin de permettre aux utilisateurs d’avoir recours à des
+une durÃ©e de vie limitÃ©e. Il est ainsi recommandÃ© de forcer la rÃ©-authentification des
+utilisateurs aprÃ¨s une pÃ©riode adaptÃ©e au cas d'usage.";23
+R13;ProtÃ©ger les donnÃ©es d'authentification stockÃ©es par le vÃ©rifieur;"Lorsque des donnÃ©es d'authentification doivent Ãªtre conservÃ©es par le vÃ©rifieur, il est
+recommandÃ© d'assurer la protection en confidentialitÃ© et en intÃ©gritÃ© de ces informations.
+Il est Ã©galement recommandÃ© de protÃ©ger les accÃ¨s Ã  ces donnÃ©es sensibles.";23
+R14;Ne pas donner d'information sur l'Ã©chec de l'authentification;"Il est recommandÃ© que l'Ã©chec d'une authentification multifacteur ne donne pas d'information
+sur le facteur ayant conduit Ã  l'Ã©chec de l'authentification.";23
+R15;DÃ©finir un dÃ©lai d'expiration des facteurs d'authentification;"Il est recommandÃ© de mettre en place un dÃ©lai d'expiration des facteurs d'authentification,
+permettant de limiter une Ã©ventuelle pÃ©riode d'utilisation frauduleuse.";24
+R16;DÃ©finir une politique d'utilisation des facteurs d'authentification;"Il est recommandÃ© d'Ã©tablir une politique dÃ©finissant les conditions d'utilisation du
+ou des facteurs d'authentification mis en place. Il peut par exemple s'agir de dÃ©finir
+les conditions d'utilisation d'un facteur d'authentification de possession, de dÃ©finir
+les procÃ©dures qu'un utilisateur doit suivre dans les cas de perte ou de compromission
+de son facteur d'authentification.";24
+R17;Sensibiliser les utilisateurs Ã  la sÃ©curitÃ© de l'authentification;"Il est recommandÃ© de mettre en place des campagnes de sensibilisation des utilisateurs
+aux risques liÃ©s Ã  l'authentification (par exemple des campagnes de sensibilisation
+au hameÃ§onnage). Les utilisateurs doivent Ãªtre Ã©galement informÃ©s des diffÃ©rentes
+conditions d'utilisation des facteurs d'authentification mis Ã  leur disposition.";24
+R18;Mettre en place un processus de rÃ©vocation des facteurs d'authentification;"Il est recommandÃ© de mettre en place un processus dÃ©diÃ© permettant de rÃ©voquer
+des facteurs d'authentification et de diffuser l'information de rÃ©vocation.";24
+R19;DÃ©finir des dÃ©lais adaptÃ©s de prise en compte des rÃ©vocations;"Les dÃ©lais pour la prise en compte et l'application de la rÃ©vocation doivent faire partie
+de l'analyse de risque et doivent Ãªtre adaptÃ©s aux menaces pesant sur le systÃ¨me
+d'information.";25
+R20;Mettre en place une politique de sÃ©curitÃ© des mots de passe;"Il est recommandÃ© de mettre en place une politique de sÃ©curitÃ© des mots passe adaptÃ©e
+au contexte et aux objectifs de sÃ©curitÃ© du systÃ¨me d'information.";27
+R21;Imposer une longueur minimale pour les mots de passe;"Il est recommandÃ© de dÃ©finir une longueur minimale pour les mots de passe lors de
+leur crÃ©ation en fonction du niveau de sÃ©curitÃ© visÃ© par le systÃ¨me d'information.";28
+R22;Ne pas imposer de longueur maximale pour les mots de passe;"Selon les systÃ¨mes, il est recommandÃ© de ne pas fixer de limite Ã  la longueur maximale
+d'un mot de passe afin de permettre aux utilisateurs d'avoir recours Ã  des
 phrases de passe ou longs mots de passe.";29
-R23;Mettre en oeuvre des règles sur la complexité des mots de passe;"Au moment de la création ou du renouvellement d’un mot de passe par un utilisateur,
-il est recommandé de mettre en oeuvre des règles de complexité tout en proposant
-un jeu de caractères le plus large possible.";29
-R24;Ne pas imposer par défaut de délai d’expiration sur les mots de passe des comptes non sensibles;"Si la politique de mots de passe exige des mots de passe robustes et que les systèmes
-permettent son implémentation, alors il est recommandé de ne pas imposer par défaut
-de délai d’expiration sur les mots de passe des comptes non sensibles comme les
+R23;Mettre en oeuvre des rÃ¨gles sur la complexitÃ© des mots de passe;"Au moment de la crÃ©ation ou du renouvellement d'un mot de passe par un utilisateur,
+il est recommandÃ© de mettre en oeuvre des rÃ¨gles de complexitÃ© tout en proposant
+un jeu de caractÃ¨res le plus large possible.";29
+R24;Ne pas imposer par dÃ©faut de dÃ©lai d'expiration sur les mots de passe des comptes non sensibles;"Si la politique de mots de passe exige des mots de passe robustes et que les systÃ¨mes
+permettent son implÃ©mentation, alors il est recommandÃ© de ne pas imposer par dÃ©faut
+de dÃ©lai d'expiration sur les mots de passe des comptes non sensibles comme les
 comptes utilisateur.";30
-R25;Imposer un délai d’expiration sur les mots de passe des comptes à privilèges;"Il est recommandé d’imposer un délai d’expiration sur les mots de passe des comptes
-très sensibles comme les comptes administrateurs. Ce délai d’expiration peut par exemple être fixé à une durée comprise entre 1 et 3 ans.";31
-R26;Révoquer immédiatement les mots de passe en cas de compromission suspectée ou avérée;"En cas de compromission suspectée ou avérée d’un système d’authentification, tous
-les mots de passe concernés par ce système doivent être renouvelés immédiatement
-(de l’ordre de la journée). Au-delà de ce délai, les comptes concernés doivent être
-désactivés et une procédure de réactivation pour les utilisateurs doit être mise en
+R25;Imposer un dÃ©lai d'expiration sur les mots de passe des comptes Ã  privilÃ¨ges;"Il est recommandÃ© d'imposer un dÃ©lai d'expiration sur les mots de passe des comptes
+trÃ¨s sensibles comme les comptes administrateurs. Ce dÃ©lai d'expiration peut par exemple Ãªtre fixÃ© Ã  une durÃ©e comprise entre 1 et 3 ans.";31
+R26;RÃ©voquer immÃ©diatement les mots de passe en cas de compromission suspectÃ©e ou avÃ©rÃ©e;"En cas de compromission suspectÃ©e ou avÃ©rÃ©e d'un systÃ¨me d'authentification, tous
+les mots de passe concernÃ©s par ce systÃ¨me doivent Ãªtre renouvelÃ©s immÃ©diatement
+(de l'ordre de la journÃ©e). Au-delÃ  de ce dÃ©lai, les comptes concernÃ©s doivent Ãªtre
+dÃ©sactivÃ©s et une procÃ©dure de rÃ©activation pour les utilisateurs doit Ãªtre mise en
 oeuvre.";31
-R27;Mettre en place un contrôle de la robustesse des mots de passe lors de leur création ou de leur renouvellement;"Il est recommandé de procéder à un contrôle automatisé et systématique de la robustesse
-des mots de passe au moment de leur création ou de leur renouvellement.";31
-R28;Utiliser un sel aléatoire long;"Il est recommandé d’utiliser un sel choisi aléatoirement pour chaque compte et d’une
-longueur d’au moins 128 bits.";33
-R29;Utiliser une fonction de dérivation de mots de passe memory-hard pour conserver les mots de passe;"Pour conserver les mots de passe, il est recommandé d’utiliser des fonctions de
-dérivation de mots de passe memory-hard comme scrypt ou Argon2.
-Il est conseillé de paramétrer ces fonctions de manière à proposer le niveau de
-sécurité le plus élevé possible tant que cela n’affecte pas un usage légitime.";33
-R29 -;Utiliser une fonction de dérivation de mots de passe itérative pour conserver les mots de passe;"Pour des contextes où il est difficile de faire usage de fonctions memory-hard, il est
-recommandé d’utiliser la fonction de dérivation de mots de passe PBKDF2.
-Il est conseillé de choisir le nombre d’itérations de PBKDF2 le plus grand possible,
-tant que cela n’affecte pas un usage légitime.";33
-R30;Proposer une méthode de recouvrement d’accès;"Afin de permettre aux utilisateurs de retrouver un accès à leur compte, il est recommandé
-de mettre en place une méthode de recouvrement d’accès adaptée au
-contexte d’utilisation.";34
-R31;Mettre à disposition un coffre-fort de mots de passe;"Il est recommandé que les responsables du système d’information mettent à disposition
-des utilisateurs un coffre-fort de mots de passe et les forment à son utilisation.";34
-R32;[Utilisateur] Utiliser des mots de passe robustes;"Il est recommandé d’utiliser des mots de passe (ou phrases de passe) robustes, c’està-
-dire suffisamment longs et complexes pour résister aux attaques par recherche exhaustive
-et n’étant pas un mot du dictionnaire (ou une citation ou phrase connue)
-pour résister aux attaques par dictionnaire.";35
-R33;[Utilisateur] Utiliser un mot de passe différent pour chaque service;"Il est recommandé d’utiliser un mot de passe différent pour chaque service auquel
-l’utilisateur est inscrit.";35
-R34;[Utilisateur] Utiliser un coffre-fort de mots de passe;"Il est recommandé d’utiliser un coffre-fort de mots de passe permettant facilement
-de générer des mots de passe robustes et différents pour chaque service, facilitant la
+R27;Mettre en place un contrÃ´le de la robustesse des mots de passe lors de leur crÃ©ation ou de leur renouvellement;"Il est recommandÃ© de procÃ©der Ã  un contrÃ´le automatisÃ© et systÃ©matique de la robustesse
+des mots de passe au moment de leur crÃ©ation ou de leur renouvellement.";31
+R28;Utiliser un sel alÃ©atoire long;"Il est recommandÃ© d'utiliser un sel choisi alÃ©atoirement pour chaque compte et d'une
+longueur d'au moins 128 bits.";33
+R29;Utiliser une fonction de dÃ©rivation de mots de passe memory-hard pour conserver les mots de passe;"Pour conserver les mots de passe, il est recommandÃ© d'utiliser des fonctions de
+dÃ©rivation de mots de passe memory-hard comme scrypt ou Argon2.
+Il est conseillÃ© de paramÃ©trer ces fonctions de maniÃ¨re Ã  proposer le niveau de
+sÃ©curitÃ© le plus Ã©levÃ© possible tant que cela n'affecte pas un usage lÃ©gitime.";33
+R29 -;Utiliser une fonction de dÃ©rivation de mots de passe itÃ©rative pour conserver les mots de passe;"Pour des contextes oÃ¹ il est difficile de faire usage de fonctions memory-hard, il est
+recommandÃ© d'utiliser la fonction de dÃ©rivation de mots de passe PBKDF2.
+Il est conseillÃ© de choisir le nombre d'itÃ©rations de PBKDF2 le plus grand possible,
+tant que cela n'affecte pas un usage lÃ©gitime.";33
+R30;Proposer une mÃ©thode de recouvrement d'accÃ¨s;"Afin de permettre aux utilisateurs de retrouver un accÃ¨s Ã  leur compte, il est recommandÃ©
+de mettre en place une mÃ©thode de recouvrement d'accÃ¨s adaptÃ©e au
+contexte d'utilisation.";34
+R31;Mettre Ã  disposition un coffre-fort de mots de passe;"Il est recommandÃ© que les responsables du systÃ¨me d'information mettent Ã  disposition
+des utilisateurs un coffre-fort de mots de passe et les forment Ã  son utilisation.";34
+R32;[Utilisateur] Utiliser des mots de passe robustes;"Il est recommandÃ© d'utiliser des mots de passe (ou phrases de passe) robustes, c'estÃ -
+dire suffisamment longs et complexes pour rÃ©sister aux attaques par recherche exhaustive
+et n'Ã©tant pas un mot du dictionnaire (ou une citation ou phrase connue)
+pour rÃ©sister aux attaques par dictionnaire.";35
+R33;[Utilisateur] Utiliser un mot de passe diffÃ©rent pour chaque service;"Il est recommandÃ© d'utiliser un mot de passe diffÃ©rent pour chaque service auquel
+l'utilisateur est inscrit.";35
+R34;[Utilisateur] Utiliser un coffre-fort de mots de passe;"Il est recommandÃ© d'utiliser un coffre-fort de mots de passe permettant facilement
+de gÃ©nÃ©rer des mots de passe robustes et diffÃ©rents pour chaque service, facilitant la
 mise en oeuvre de la recommandation R33.";35
-R35;[Utilisateur] Protéger ses mots de passe;"Il est recommandé d’adopter les bons réflexes de protection des mots de passe. Par
-exemple, il est impératif de ne pas écrire ses mots de passe sur une note sous le
-clavier, de ne pas créer un fichier « mot de passe » sur le poste utilisateur, de ne pas
-s’envoyer ses mots de passe par courriel, etc. L’utilisation d’outils comme les coffresforts
-de mots de passe est à privilégier.";35
-R36;[Utilisateur] Utiliser un mot de passe robuste pour l’accès à sa messagerie électronique;"Il est recommandé d’utiliser un mot de passe robuste pour accéder à sa messagerie
-électronique. En particulier, il faut privilégier l’utilisation d’une méthode d’authentification
+R35;[Utilisateur] ProtÃ©ger ses mots de passe;"Il est recommandÃ© d'adopter les bons rÃ©flexes de protection des mots de passe. Par
+exemple, il est impÃ©ratif de ne pas Ã©crire ses mots de passe sur une note sous le
+clavier, de ne pas crÃ©er un fichier Â« mot de passe Â» sur le poste utilisateur, de ne pas
+s'envoyer ses mots de passe par courriel, etc. L'utilisation d'outils comme les coffresforts
+de mots de passe est Ã  privilÃ©gier.";35
+R36;[Utilisateur] Utiliser un mot de passe robuste pour l'accÃ¨s Ã  sa messagerie Ã©lectronique;"Il est recommandÃ© d'utiliser un mot de passe robuste pour accÃ©der Ã  sa messagerie
+Ã©lectronique. En particulier, il faut privilÃ©gier l'utilisation d'une mÃ©thode d'authentification
 multifacteur lorsque cela est disponible.";36
-R37;[Utilisateur] Choisir un mot de passe sans information personnelle;"Il est recommandé de ne pas construire son mot de passe à partir d’informations
-personnelles comme les noms et prénoms ou encore la date de naissance.";36
-R38;[Utilisateur] Modifier les mots de passe par défaut;Il est recommandé de modifier les mots de passe par défaut.;36
-R39;Utiliser un facteur de possession intégrant un composant de sécurité qualifié ou certifié;"Il est recommandé de recourir à l’utilisation d’un facteur de possession dont le composant
-de sécurité a reçu un visa de sécurité de l’ANSSI.";38
-R39 -;Utiliser un facteur de possession intégrant un composant de sécurité;"Lorsqu’une authentification, simple facteur ou multifacteur, utilise un moyen d’authentification
-reposant sur un facteur de possession, il est recommandé qu’il possède
-un composant de sécurité intégré.
-Il est recommandé d’utiliser un protocole d’authentification conforme au RGS.";38
-R39 - -;Utiliser un facteur de possession même sans composant de sécurité;"L’utilisation d’un facteur de possession permet l’utilisation de protocoles d’authentification
-conformes au RGS. Son utilisation reste recommandée même si les éléments
-secrets ne peuvent pas être stockés dans un composant de sécurité. Dans ce
-contexte, il est essentiel de mettre en oeuvre des mesures de protection supplémentaires
-comme le chiffrement des éléments cryptographiques, des restrictions d’accès,
+R37;[Utilisateur] Choisir un mot de passe sans information personnelle;"Il est recommandÃ© de ne pas construire son mot de passe Ã  partir d'informations
+personnelles comme les noms et prÃ©noms ou encore la date de naissance.";36
+R38;[Utilisateur] Modifier les mots de passe par dÃ©faut;Il est recommandÃ© de modifier les mots de passe par dÃ©faut.;36
+R39;Utiliser un facteur de possession intÃ©grant un composant de sÃ©curitÃ© qualifiÃ© ou certifiÃ©;"Il est recommandÃ© de recourir Ã  l'utilisation d'un facteur de possession dont le composant
+de sÃ©curitÃ© a reÃ§u un visa de sÃ©curitÃ© de l'ANSSI.";38
+R39 -;Utiliser un facteur de possession intÃ©grant un composant de sÃ©curitÃ©;"Lorsqu'une authentification, simple facteur ou multifacteur, utilise un moyen d'authentification
+reposant sur un facteur de possession, il est recommandÃ© qu'il possÃ¨de
+un composant de sÃ©curitÃ© intÃ©grÃ©.
+Il est recommandÃ© d'utiliser un protocole d'authentification conforme au RGS.";38
+R39 - -;Utiliser un facteur de possession mÃªme sans composant de sÃ©curitÃ©;"L'utilisation d'un facteur de possession permet l'utilisation de protocoles d'authentification
+conformes au RGS. Son utilisation reste recommandÃ©e mÃªme si les Ã©lÃ©ments
+secrets ne peuvent pas Ãªtre stockÃ©s dans un composant de sÃ©curitÃ©. Dans ce
+contexte, il est essentiel de mettre en oeuvre des mesures de protection supplÃ©mentaires
+comme le chiffrement des Ã©lÃ©ments cryptographiques, des restrictions d'accÃ¨s,
 etc.";38
-R40;Ne pas utiliser un facteur inhérent comme unique facteur d’authentification;"Il est recommandé de ne pas utiliser un facteur d’authentification inhérent lorsqu’il
-s’agit d’une authentification avec un unique facteur.";41
-R41;Utiliser un facteur inhérent uniquement associé à un facteur d’authentification fort;"Dans le cadre d’une authentification multifacteur, si un facteur d’authentifcation inhérent
-est utilisé, alors il est recommandé de l’accompagner d’au moins un autre
-facteur d’authentification reposant sur un mécanisme cryptographique conforme au
+R40;Ne pas utiliser un facteur inhÃ©rent comme unique facteur d'authentification;"Il est recommandÃ© de ne pas utiliser un facteur d'authentification inhÃ©rent lorsqu'il
+s'agit d'une authentification avec un unique facteur.";41
+R41;Utiliser un facteur inhÃ©rent uniquement associÃ© Ã  un facteur d'authentification fort;"Dans le cadre d'une authentification multifacteur, si un facteur d'authentifcation inhÃ©rent
+est utilisÃ©, alors il est recommandÃ© de l'accompagner d'au moins un autre
+facteur d'authentification reposant sur un mÃ©canisme cryptographique conforme au
 RGS.";41
-R42;Favoriser une rencontre en présence lors de l’enregistrement d’un facteur inhérent;"Lors de la phase d’enregistrement d’un moyen d’authentification inhérent, il est recommandé
-de procéder à la vérification de l’identité par une rencontre en présence
-afin de limiter les risques d’usurpation d’identité lors de cette phase.";42
+R42;Favoriser une rencontre en prÃ©sence lors de l'enregistrement d'un facteur inhÃ©rent;"Lors de la phase d'enregistrement d'un moyen d'authentification inhÃ©rent, il est recommandÃ©
+de procÃ©der Ã  la vÃ©rification de l'identitÃ© par une rencontre en prÃ©sence
+afin de limiter les risques d'usurpation d'identitÃ© lors de cette phase.";42
